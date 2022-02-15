@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    background: beige;
+    font-family: Akaya Telivigala;
+    font-size: 20px;
+}
+
+.container {
+display: flex;
+justify-content: center;
+flex-direction: column;
+
+margin: 30vh;
+background: beige;
+}
+
+input {
+    margin: 15px;
+padding: 5px;
+border-radius: 5px;
+}
+
+label {
+    border: 1px solid brown;
+}
+
+.btn {
+	cursor: pointer;
+	padding: 5px 15px;
+	background: sandybrown;
+	color: black;
+	border: 0;
+	font-size: 17px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.inner_box {
+
+width: 500px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+margin-left: 30%;
+height: 600px;
+background: aliceblue;
+border-radius: 4px;
+    
+}
